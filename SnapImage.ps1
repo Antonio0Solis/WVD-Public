@@ -67,7 +67,8 @@
 param (
     [Parameter(Mandatory = $true)][string]$refVmName,
     [Parameter(Mandatory = $true)][string]$refVmRg,
-    [Parameter(Mandatory = $false)][string]$cseURI = 'https://raw.githubusercontent.com/tsrob50/WVD-Public/master/SysprepCSE.ps1',
+    [Parameter(Mandatory = $false)][string]$cseURI = 'https://raw.githubusercontent.com/Antonio0Solis/WVD-Public/master/SysprepCSE.ps1',
+    <#[Parameter(Mandatory = $false)][string]$cseURI = 'https://raw.githubusercontent.com/tsrob50/WVD-Public/master/SysprepCSE.ps1',#>
     [Parameter(Mandatory = $false)][switch]$galDeploy = $false,
     [Parameter(Mandatory = $false)][string]$galName,
     [parameter(Mandatory = $false)][string]$galDefName,
